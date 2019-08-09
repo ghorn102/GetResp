@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="270.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ExitController">
+   <children>
+      <Label layoutX="68.0" layoutY="40.0" text="Are you sure?">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="exit_yes" layoutX="160.0" layoutY="175.0" maxHeight="30.0" maxWidth="75.0" minHeight="30.0" minWidth="75.0" mnemonicParsing="false" onAction="#onActionExit_yes" prefHeight="30.0" prefWidth="75.0" text="exit" />
+      <Button fx:id="exit_no" layoutX="50.0" layoutY="175.0" maxHeight="30.0" maxWidth="75.0" minHeight="30.0" minWidth="75.0" mnemonicParsing="false" onAction="#onActionExit_no" prefHeight="30.0" prefWidth="75.0" text="cancel" />
+   </children>
+</AnchorPane>
